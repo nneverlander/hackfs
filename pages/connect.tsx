@@ -6,8 +6,12 @@ import Image from "next/image";
 import Layout from "containers/layout";
 import { NextPage } from "next";
 import styles from "../styles/Connect.module.scss";
+import useCurrentUser from "hooks/useCurrentUser";
 
 export default function ConnectWallet() {
+	const { user } = useCurrentUser();
+	console.log(user ? 'User is authenticated' : 'User is not authenticated');
+
 	return (
 		<>
 			<Head>

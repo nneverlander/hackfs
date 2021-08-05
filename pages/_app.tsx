@@ -5,6 +5,7 @@ import "../src/components/nft/components.scss";
 import { ChakraProvider, extendTheme, ThemeConfig } from "@chakra-ui/react";
 import type { AppProps } from "next/app";
 import { NextPage } from "next";
+import { UserProvider } from "providers/user";
 
 const colors = {
 	fonts: {
@@ -27,7 +28,9 @@ function MyApp({ Component, pageProps }: AppProps) {
 	const getLayout = (Component as any).getLayout || ((page: NextPage) => page);
 	return getLayout(
 		<ChakraProvider theme={theme}>
-			<Component {...pageProps} />
+			<UserProvider user={null}>
+				<Component {...pageProps} />
+			</UserProvider>
 		</ChakraProvider>
 	);
 }
