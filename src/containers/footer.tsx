@@ -51,7 +51,7 @@ const LandingFooter = () => {
 					<div className="col-sm-12 col-md-7">
 						<p>Copyright © 2021 Mavrik labs Inc, All rights reserved | <a href="https://mavrik.co">mavrik.co</a></p>
 					</div>
-					<div className="col-sm-12 col-md-5 justify-self-end socials">
+					<div className="col-sm-12 col-md-5 justify-self-center socials">
 						<a href="https://medium.com/@mavriklabs">
 							<Image alt="NFT Company" src="/img/medium.svg" width={30} height={30} />
 						</a>

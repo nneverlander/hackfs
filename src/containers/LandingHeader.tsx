@@ -13,7 +13,7 @@ const LandingHeader = () => {
 					<div className="col-sm-12 col-md-3">
 						<Link href="/">
 							<a>
-								<Image alt="NFT Company" src="/img/nftcompanyWhiteBgSvg.svg" width={180} height={60} />
+								<Image alt="NFT Company" src="/img/nftcompanyWhiteBgSvg.svg" width={270} height={90} />
 							</a>
 						</Link>
 					</div>
