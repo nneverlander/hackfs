@@ -7,10 +7,20 @@ import Layout from "containers/layout";
 import { NextPage } from "next";
 import styles from "../styles/Connect.module.scss";
 import useCurrentUser from "hooks/useCurrentUser";
+import { connectToWallet } from "utils/connectToWallet";
 
 export default function ConnectWallet() {
-	const { user } = useCurrentUser();
-	console.log(user ? 'User is authenticated' : 'User is not authenticated');
+	const { user, setUser } = useCurrentUser();
+	console.log({ user });
+
+	const onMetaMaskConnect = async () => {
+		try {
+			const user = await connectToWallet('metamask');
+			setUser(user);
+		} catch (e) {
+			alert(e.message);
+		}
+	};
 
 	return (
 		<>
@@ -61,7 +71,7 @@ export default function ConnectWallet() {
 							</svg>
 							<h1 className="tg-desc text-center mb-3">Connect Wallet</h1>
 
-							<div className={styles.item}>
+							<div className={styles.item} onClick={onMetaMaskConnect}>
 								<div className="logo-metamask d-flex align-self-center">
 									<Image
 										alt="Mavrik logo"
