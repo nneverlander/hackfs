@@ -21,7 +21,7 @@ export default function Home() {
 
 					<Image alt="NFT Company" src="/img/artwork-1.png" width={860} height={480} />
 
-					<p className={`tg-paragraph text-center ${styles["tg-paragraph"]} tg-paragraph2`}>
+					<p className={`tg-paragraph text-center ${styles["tg-paragraph"]}`}>
 						We are excited to bring you a brand new crypto primitive - a programmable NFT. Programmable NFTs
 						can represent far more than digital art. They let you invest in DeFi, play games, perform tasks
 						on behalf of you and more.
