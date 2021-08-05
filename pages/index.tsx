@@ -126,8 +126,8 @@ export default function Home() {
 							</p>
 
 							<div className="grid">
-								<div className="col-sm-6 col-md-3">
-									<Image alt="NFT Company" src="/img/binanceLabs.svg" width={100} height={100} />
+								<div className="col-sm-6 col-md-3 col-lg-12">
+									<Image alt="NFT Company" src="/img/binanceLabs3.jpeg" width={1500} height={500} />
 								</div>
 								{/* <div className="col-sm-6 col-md-3">
 									<Image alt="NFT Company" src="/logo-investor.png" width={100} height={100} />
@@ -153,20 +153,34 @@ export default function Home() {
 					<Questions
 						questions={[
 							{
-								question: "Question 1: Hello, How are you?",
-								answer: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus, suscipit eveniet sunt at a accusantium eaque, tempora debitis doloremque deleniti cumque unde itaque, saepe fugit omnis. Laudantium repellat optio animi?",
+								question: "What is a programmable NFT?",
+								answer: "A programmable NFT is a smart contract that is minted by an NFT factory."
+								 + " Since the NFT is a smart contract, it can be programmed to do anything." + 
+								 " For example, it can be programmed to manage Uniswap V3 positions automatically.",
 							},
 							{
-								question: "Question 2: Hello, How are you?",
-								answer: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus, suscipit eveniet sunt at a accusantium eaque, tempora debitis doloremque deleniti cumque unde itaque, saepe fugit omnis. Laudantium repellat optio animi?",
+								question: "Why programmable NFTs?",
+								answer: "Because they are cooler than jpeg NFTs and regular smart contracts with regular front-ends.",
 							},
 							{
-								question: "Question 3: Hello, How are you?",
-								answer: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus, suscipit eveniet sunt at a accusantium eaque, tempora debitis doloremque deleniti cumque unde itaque, saepe fugit omnis. Laudantium repellat optio animi?",
+								question: "What can be built with this primitive?",
+								answer: "P2P exchanges, P2P loans, games, smart wallets, frontends to any DeFi protocol or any blockchain app.",
 							},
 							{
-								question: "Question 4: Hello, How are you?",
-								answer: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus, suscipit eveniet sunt at a accusantium eaque, tempora debitis doloremque deleniti cumque unde itaque, saepe fugit omnis. Laudantium repellat optio animi?",
+								question: "Are you live?",
+								answer: "Our base contracts are ready and can be found on our Github. We are planning to release the first application of a programmable NFT in the coming weeks.",
+							},
+							{
+								question: "When can I mint these NFTs?",
+								answer: "In the coming weeks once we launch our first NFT. Stay tuned by following us on Twitter and joining our Discord.",
+							},
+							{
+								question: "Is there a token?",
+								answer: "No, currently there is no token.",
+							},
+							{
+								question: "Is this a DAO?",
+								answer: "We plan to build this as a DAO and are currently looking for the genesis squad.",
 							},
 						]}
 					/>

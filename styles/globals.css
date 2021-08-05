@@ -183,8 +183,18 @@ svg {
 
 .footer .tg-paragraph {
 	width: 24rem;
+	padding-left: 0.25rem;
 	font-size: 16px;
 	max-width: 100%;
+}
+
+.footer .tg-desc {
+	font-size: clamp(1rem, 1.2vw + 1rem, 1.25rem);
+	line-height: 1.618;
+	margin-top: 1rem;
+	font-weight: 700;
+	letter-spacing: -0.02em;
+	word-spacing: -0.02em;
 }
 
 .footer .second {
