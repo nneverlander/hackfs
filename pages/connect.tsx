@@ -18,7 +18,7 @@ export default function ConnectWallet() {
 					<div className={styles.center}>
 						<Link href="/">
 							<a>
-								<Image alt="Mavrik logo" src="/logo.svg" width={120} height={40} />
+								<Image alt="NFT Company" src="/logo.svg" width={120} height={40} />
 							</a>
 						</Link>
 
@@ -60,7 +60,7 @@ export default function ConnectWallet() {
 							<div className={styles.item}>
 								<div className="logo-metamask d-flex align-self-center">
 									<Image
-										alt="Mavrik logo"
+										alt="NFT Company"
 										src="/metamask.svg"
 										width={56}
 										height={56}
@@ -91,7 +91,7 @@ export default function ConnectWallet() {
 							<div className={styles.item}>
 								<div className="logo-metamask d-flex align-self-center">
 									<Image
-										alt="Mavrik logo"
+										alt="NFT Company"
 										src="/walletconnect.svg"
 										width={56}
 										height={56}
@@ -122,7 +122,7 @@ export default function ConnectWallet() {
 							<div className={styles.item}>
 								<div className="logo-metamask d-flex align-self-center">
 									<Image
-										alt="Mavrik logo"
+										alt="NFT Company"
 										src="/coinbase.svg"
 										width={56}
 										height={56}

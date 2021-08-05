@@ -13,17 +13,26 @@ const LandingHeader = () => {
 					<div className="col-sm-12 col-md-3">
 						<Link href="/">
 							<a>
-								<Image alt="Mavrik logo" src="/logo.svg" width={120} height={40} />
+								<Image alt="NFT Company" src="/img/nftcompanyWhiteBgSvg.svg" width={180} height={60} />
 							</a>
 						</Link>
 					</div>
 					<div className="col-sm-12 col-md-6">
 						<ul className="header-links">
 							<li>
-								<a onClick={() => scrollTo({ id: "developers" })}>Developers</a>
+							<a href="https://docs.nftcompany.com" target="_blank">Docs</a>
 							</li>
 							<li>
-								<a onClick={() => scrollTo({ id: "investors" })}>Investors</a>
+								<a href="https://github.com/mavriklabs" target="_blank">Github</a>
+							</li>
+							<li>
+								<a href="https://medium.com/@mavriklabs" target="_blank">Medium</a>
+							</li>
+							<li>
+								<a href="https://discord.gg/PQgNkhdV" target="_blank">Discord</a>
+							</li>
+							<li>
+								<a href="https://twitter.com/mavriklabs" target="_blank">Twitter</a>
 							</li>
 							<li>
 								<a onClick={() => scrollTo({ id: "faq" })}>FAQ</a>
@@ -31,7 +40,7 @@ const LandingHeader = () => {
 						</ul>
 					</div>
 
-					<div className="col-sm-12 col-md-3 justify-self-end">
+					{/* <div className="col-sm-12 col-md-3 justify-self-end">
 						<Link href="/connect">
 							<a className="connect-wallet">
 								<svg width={20} height={20} fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -45,7 +54,7 @@ const LandingHeader = () => {
 								Connect Wallet
 							</a>
 						</Link>
-					</div>
+					</div> */}
 				</div>
 			</div>
 		</header>

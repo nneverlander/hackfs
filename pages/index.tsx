@@ -18,13 +18,8 @@ export default function Home() {
 			<section className={styles.intro}>
 				<div className="container container-avg">
 					<h1 className={`tg-hero-title text-center ${styles["tg-hero-title"]}`}>Supercharged NFTs.</h1>
-					{/* <h1 className={`tg-hero-title text-center ${styles["tg-hero-title"]}`}>
-						Invest like a M<span className="brand-color">a</span>verik.
-						<br />
-						Don’t settle for ETFs.
-					</h1> */}
 
-					<Image alt="Marvrik" src="/artwork-1.png" width={860} height={480} />
+					<Image alt="NFT Company" src="/artwork-1.png" width={860} height={480} />
 
 					<p className={`tg-paragraph text-center ${styles["tg-paragraph"]}`}>
 						We are excited to bring you a brand new crypto primitive - a programmable NFT. Programmable NFTs
@@ -32,7 +27,7 @@ export default function Home() {
 						on behalf of you and more.
 					</p>
 
-					<Link href="/connect">
+					{/* <Link href="/connect">
 						<a className="connect-wallet min">
 							<svg width={20} height={20} fill="none" xmlns="http://www.w3.org/2000/svg">
 								<path
@@ -44,7 +39,7 @@ export default function Home() {
 							</svg>
 							Connect Wallet
 						</a>
-					</Link>
+					</Link> */}
 				</div>
 			</section>
 
@@ -53,10 +48,10 @@ export default function Home() {
 					<div className="grid">
 						<div className="col-sm-12 col-md-6">
 							<h3 className="tg-title">
-								Don’t let your hard earned money sit idle in your checking accounts.
+							Automate DeFi with your NFTs. Track all your investments in one place.
 								<br />
 								<span className={`${styles.tick} brand-color`}>
-									Make it work for you.{" "}
+									Let NFTs do the work.{" "}
 									<svg
 										xmlns="http://www.w3.org/2000/svg"
 										width="32"
@@ -83,15 +78,15 @@ export default function Home() {
 							</h3>
 
 							<ul>
-								<li>Convert your USD into USDC - a regulated stablecoin.</li>
-								<li>Store it in our savings wallet that yields 7%. </li>
-								<li>Funds are covered.</li>
-								<li>Use it to invest in digital assets like BTC & ETH.</li>
-								<li>Withdraw anytime you wish.</li>
+								<li>Each NFT interfaces with a specific DeFi protocol.</li>
+								<li>NFT functions like a smart wallet.</li>
+								<li>Assets are secure and segregated in each NFT.</li>
+								<li>Only NFT owners can perform DeFi transactions.</li>
+								<li>Assets from the NFT can be withdrawn anytime.</li>
 							</ul>
 						</div>
 						<div className="col-sm-12 col-md-6">
-							<Image alt="Marvrik" src="/artwork-2.png" width={488} height={488} />
+							<Image alt="NFT Company" src="/artwork-2.png" width={488} height={488} />
 						</div>
 					</div>
 				</div>
@@ -116,7 +111,7 @@ export default function Home() {
 								</p>
 							</div>
 						</div>
-						<Image className={styles.cover} alt="Marvrik" src="/artwork-3.png" width={770} height={512} />
+						<Image className={styles.cover} alt="NFT Company" src="/artwork-3.png" width={770} height={512} />
 					</div>
 				</div>
 			</section>
@@ -127,28 +122,26 @@ export default function Home() {
 						<div className="col-sm-12 col-md-6">
 							<h3 className="tg-title">Investors</h3>
 							<p className="tg-paragraph">
-								Marketplaces connect consumers with what they want: rides, food, accommodation, and
-								more. Your payments should meet the same high standards as your product experience: with
-								just a tap, it helps sellers on your marketplace get paid.
+								We are backed by investors that believe in the long term potential of crypto.
 							</p>
 
 							<div className="grid">
 								<div className="col-sm-6 col-md-3">
-									<Image alt="Marvrik" src="/logo-investor.png" width={100} height={100} />
+									<Image alt="NFT Company" src="/logo-investor.png" width={100} height={100} />
+								</div>
+								{/* <div className="col-sm-6 col-md-3">
+									<Image alt="NFT Company" src="/logo-investor.png" width={100} height={100} />
 								</div>
 								<div className="col-sm-6 col-md-3">
-									<Image alt="Marvrik" src="/logo-investor.png" width={100} height={100} />
+									<Image alt="NFT Company" src="/logo-investor.png" width={100} height={100} />
 								</div>
 								<div className="col-sm-6 col-md-3">
-									<Image alt="Marvrik" src="/logo-investor.png" width={100} height={100} />
-								</div>
-								<div className="col-sm-6 col-md-3">
-									<Image alt="Marvrik" src="/logo-investor.png" width={100} height={100} />
-								</div>
+									<Image alt="NFT Company" src="/logo-investor.png" width={100} height={100} />
+								</div> */}
 							</div>
 						</div>
 						<div className="col-sm-12 col-md-6">
-							<Image alt="Marvrik" src="/artwork-4.png" width={488} height={400} />
+							<Image alt="NFT Company" src="/artwork-4.png" width={488} height={400} />
 						</div>
 					</div>
 				</div>
