@@ -49,21 +49,21 @@ const LandingFooter = () => {
 
 				<div className="grid second">
 					<div className="col-sm-12 col-md-7">
-						<p>Copyright © 2021 Mavrik labs Inc, All rights reserved | mavrik.co</p>
+						<p>Copyright © 2021 Mavrik labs Inc, All rights reserved | <a href="https://mavrik.co">mavrik.co</a></p>
 					</div>
 
 					<div className="col-sm-12 col-md-5 justify-self-end socials">
 						<a href="https://medium.com/@mavriklabs">
-							<Image alt="NFT Company" src="/medium.svg" width={36} height={36} />
+							<Image alt="NFT Company" src="/img/medium.svg" width={36} height={36} />
 						</a>
 						<a href="https://discord.gg/PQgNkhdV">
-							<Image alt="NFT Company" src="/discord.svg" width={36} height={36} />
+							<Image alt="NFT Company" src="/img/discord.svg" width={36} height={36} />
 						</a>
 						<a href="https://twitter.com/mavriklabs">
-							<Image alt="NFT Company" src="/tw.svg" width={36} height={36} />
+							<Image alt="NFT Company" src="/img/tw.svg" width={36} height={36} />
 						</a>
 						<a href="https://www.instagram.com/mavriklabs/">
-							<Image alt="NFT Company" src="/ig.svg" width={36} height={36} />
+							<Image alt="NFT Company" src="/img/ig.svg" width={36} height={36} />
 						</a>
 					</div>
 				</div>

@@ -33,10 +33,13 @@
 		max-width: 100%;
 		margin: -3rem auto 1rem;
 		font-weight: 500;
+		font-size: 1.67rem;
 	}
 }
 
 .about {
+	margin-top: 12rem;
+
 	.tick svg {
 		position: relative;
 		top: -5px;
@@ -47,6 +50,7 @@
 		margin-top: 1em;
 		list-style-type: none;
 		li {
+			font-size: 1.1rem;
 			line-height: 2;
 			&:before {
 				content: "";

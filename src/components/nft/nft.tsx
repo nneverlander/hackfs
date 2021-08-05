@@ -35,7 +35,7 @@ const NFT: React.FC<IProps> = ({ title, id, address, brandColor, bgColor, active
 							</h3>
 							<div className={"nft"} style={{ background: bgColor, borderColor: brandColor }}>
 								<div className={"image"}>
-									<Image width={273} height={318} src="/nft/placeholder.png" alt={title} />
+									<Image width={273} height={318} src="/img/nfts/placeholder.png" alt={title} />
 								</div>
 
 								<div className={"padd"}>
@@ -45,7 +45,7 @@ const NFT: React.FC<IProps> = ({ title, id, address, brandColor, bgColor, active
 
 									<div className={"cols"}>
 										<div className={"qr"}>
-											<img src="/nft/qr.png" alt={"qrcode"} />
+											<img src="/img/nfts/qr.png" alt={"qrcode"} />
 										</div>
 										<div className={"info"}>
 											{id && (

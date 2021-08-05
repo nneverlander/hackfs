@@ -19,9 +19,9 @@ export default function Home() {
 				<div className="container container-avg">
 					<h1 className={`tg-hero-title text-center ${styles["tg-hero-title"]}`}>Supercharged NFTs.</h1>
 
-					<Image alt="NFT Company" src="/artwork-1.png" width={860} height={480} />
+					<Image alt="NFT Company" src="/img/artwork-1.png" width={860} height={480} />
 
-					<p className={`tg-paragraph text-center ${styles["tg-paragraph"]}`}>
+					<p className={`tg-paragraph text-center ${styles["tg-paragraph"]} tg-paragraph2`}>
 						We are excited to bring you a brand new crypto primitive - a programmable NFT. Programmable NFTs
 						can represent far more than digital art. They let you invest in DeFi, play games, perform tasks
 						on behalf of you and more.
@@ -86,7 +86,7 @@ export default function Home() {
 							</ul>
 						</div>
 						<div className="col-sm-12 col-md-6">
-							<Image alt="NFT Company" src="/artwork-2.png" width={488} height={488} />
+							<Image alt="NFT Company" src="/img/artwork-2.png" width={488} height={488} />
 						</div>
 					</div>
 				</div>
@@ -111,7 +111,7 @@ export default function Home() {
 								</p>
 							</div>
 						</div>
-						<Image className={styles.cover} alt="NFT Company" src="/artwork-3.png" width={770} height={512} />
+						<Image className={styles.cover} alt="NFT Company" src="/img/artwork-3.png" width={770} height={512} />
 					</div>
 				</div>
 			</section>
@@ -127,7 +127,7 @@ export default function Home() {
 
 							<div className="grid">
 								<div className="col-sm-6 col-md-3">
-									<Image alt="NFT Company" src="/logo-investor.png" width={100} height={100} />
+									<Image alt="NFT Company" src="/img/binanceLabs.svg" width={100} height={100} />
 								</div>
 								{/* <div className="col-sm-6 col-md-3">
 									<Image alt="NFT Company" src="/logo-investor.png" width={100} height={100} />
@@ -141,7 +141,7 @@ export default function Home() {
 							</div>
 						</div>
 						<div className="col-sm-12 col-md-6">
-							<Image alt="NFT Company" src="/artwork-4.png" width={488} height={400} />
+							<Image alt="NFT Company" src="/img/artwork-4.png" width={488} height={400} />
 						</div>
 					</div>
 				</div>
