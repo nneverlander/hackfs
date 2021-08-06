@@ -11,7 +11,7 @@ const Header = () => {
 						<div className="col-sm-12 col-md-6 d-flex">
 							<Link href="/dashboard">
 								<a>
-									<Image alt="Mavrik logo" src="/logo.svg" width={120} height={28} />
+									<Image alt="Mavrik logo" src="/img/nftcompanyWhiteBgSvg.svg" width={120} height={28} />
 								</a>
 							</Link>
 							<div className="hd-db">
