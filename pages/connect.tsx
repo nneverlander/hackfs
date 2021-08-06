@@ -32,7 +32,7 @@ export default function ConnectWallet() {
 					<div className={styles.center}>
 						<Link href="/">
 							<a>
-								<Image alt="Mavrik logo" src="/logo.svg" width={120} height={40} />
+								<Image alt="NFT Company" src="/img/nftcompanyWhiteBgSvg.svg" width={120} height={40} />
 							</a>
 						</Link>
 
@@ -71,11 +71,12 @@ export default function ConnectWallet() {
 							</svg>
 							<h1 className="tg-desc text-center mb-3">Connect Wallet</h1>
 
+
 							<div className={styles.item} onClick={onMetaMaskConnect}>
 								<div className="logo-metamask d-flex align-self-center">
 									<Image
-										alt="Mavrik logo"
-										src="/metamask.svg"
+										alt="NFT Company"
+										src="/img/metamask.svg"
 										width={56}
 										height={56}
 										className="align-self-center"
@@ -105,8 +106,8 @@ export default function ConnectWallet() {
 							<div className={styles.item}>
 								<div className="logo-metamask d-flex align-self-center">
 									<Image
-										alt="Mavrik logo"
-										src="/walletconnect.svg"
+										alt="NFT Company"
+										src="/img/walletConnect.svg"
 										width={56}
 										height={56}
 										className="align-self-center"
@@ -136,8 +137,8 @@ export default function ConnectWallet() {
 							<div className={styles.item}>
 								<div className="logo-metamask d-flex align-self-center">
 									<Image
-										alt="Mavrik logo"
-										src="/coinbase.svg"
+										alt="NFT Company"
+										src="/img/coinbase.svg"
 										width={56}
 										height={56}
 										className="align-self-center"

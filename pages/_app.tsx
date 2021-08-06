@@ -7,6 +7,7 @@ import type { AppProps } from "next/app";
 import { NextPage } from "next";
 import { UserProvider } from "providers/user";
 
+
 const colors = {
 	fonts: {
 		heading: "Greycliff",
