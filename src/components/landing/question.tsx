@@ -87,9 +87,15 @@ const Accordion = ({ i, expanded, setExpanded, q, a }: IProps2) => {
 const Questions: React.FC<IProps> = ({ questions }: IProps) => {
 	const [expanded, setExpanded] = useState<false | number>(-1);
 
-	return questions.map(({ answer, question }, i) => (
+	const ques = questions.map(({ answer, question }, i) => (
 		<Accordion q={question} a={answer} key={i} i={i} expanded={expanded} setExpanded={setExpanded} />
 	));
+
+	return (
+		<React.Fragment>
+		  { ques }
+		</React.Fragment>
+	)
 };
 
 export default Questions;
