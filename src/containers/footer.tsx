@@ -17,7 +17,7 @@ const LandingFooter = () => {
 							a part of a billion people’s daily lives.
 						</p>
 					</div>
-					<div className="col-sm-12 col-md-3">
+					{/* <div className="col-sm-12 col-md-3">
 						<div className="tg-desc">NFT Company</div>
 						<ul className="footer-links">
 							<li>
@@ -30,8 +30,8 @@ const LandingFooter = () => {
 								<a href="https://medium.com/@mavriklabs">Blog</a>
 							</li>
 						</ul>
-					</div>
-					<div className="col-sm-12 col-md-3">
+					</div> */}
+					{/* <div className="col-sm-12 col-md-3">
 						<div className="tg-desc">Legal</div>
 						<ul className="footer-links">
 							<li>
@@ -44,14 +44,14 @@ const LandingFooter = () => {
 								<a href="">Cookie Policy</a>
 							</li>
 						</ul>
-					</div>
+					</div> */}
 				</div>
 
 				<div className="grid second">
 					<div className="col-sm-12 col-md-7">
 						<p>Copyright © 2021 Mavrik labs Inc, All rights reserved | <a href="https://mavrik.co">mavrik.co</a></p>
 					</div>
-					<div className="col-sm-12 col-md-5 justify-self-center socials">
+					<div className="col-sm-12 col-md-5 justify-self-end socials">
 						<a href="https://medium.com/@mavriklabs">
 							<Image alt="NFT Company" src="/img/medium.svg" width={30} height={30} />
 						</a>
